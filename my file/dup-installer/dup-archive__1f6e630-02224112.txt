@@ -1,0 +1,1191 @@
+{
+    "dup_type": "lite",
+    "created": "2023-04-02 22:41:12",
+    "version_dup": "1.5.3.1",
+    "version_wp": "6.2",
+    "version_db": "10.4.22",
+    "version_php": "8.0.13",
+    "version_os": "WINNT",
+    "blogname": "Childcare",
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "$2a$08$v0r\/bUhXG8yjqtWj.ReFl.p93wscIvQNfZe7m7iTFb9JDGT\/FZwZW",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "localhost",
+            "path": "\/day\/",
+            "blogname": "Childcare",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "admin",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "http:\/\/localhost\/day",
+            "fullSiteUrl": "http:\/\/localhost\/day",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "D:\\xampp\\htdocs\\day\/wp-content\/uploads",
+            "fullUploadSafePath": "D:\/xampp\/htdocs\/day\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/localhost\/day\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8"
+        ],
+        "collationList": [
+            "utf8_general_ci",
+            "utf8mb4_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "test",
+        "tablesBaseCount": 137,
+        "tablesFinalCount": 137,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 17852,
+        "tablesSizeOnDisk": 21331968,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 802,
+                "insertedRows": 810,
+                "size": 655360
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 2356,
+                "insertedRows": 2422,
+                "size": 409600
+            },
+            "wp_booking": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_bookingdates": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 32768
+            },
+            "wp_booking_dates_props": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_bookly_appointments": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 49152
+            },
+            "wp_bookly_categories": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_bookly_customers": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 16384
+            },
+            "wp_bookly_customer_appointments": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 98304
+            },
+            "wp_bookly_email_log": {
+                "inaccurateRows": 16,
+                "insertedRows": 16,
+                "size": 16384
+            },
+            "wp_bookly_forms": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_bookly_gift_cards": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_bookly_gift_card_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_bookly_gift_card_staff": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_bookly_holidays": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_bookly_log": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 16384
+            },
+            "wp_bookly_mailing_campaigns": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_bookly_mailing_lists": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_bookly_mailing_list_recipients": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_bookly_mailing_queue": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_bookly_news": {
+                "inaccurateRows": 60,
+                "insertedRows": 60,
+                "size": 81920
+            },
+            "wp_bookly_notifications": {
+                "inaccurateRows": 39,
+                "insertedRows": 39,
+                "size": 49152
+            },
+            "wp_bookly_orders": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 16384
+            },
+            "wp_bookly_payments": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 32768
+            },
+            "wp_bookly_schedule_item_breaks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_bookly_sent_notifications": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_bookly_series": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_bookly_services": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_bookly_sessions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_bookly_shop": {
+                "inaccurateRows": 44,
+                "insertedRows": 44,
+                "size": 65536
+            },
+            "wp_bookly_staff": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_bookly_staff_categories": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_bookly_staff_preference_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_bookly_staff_schedule_items": {
+                "inaccurateRows": 7,
+                "insertedRows": 7,
+                "size": 32768
+            },
+            "wp_bookly_staff_services": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_bookly_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_bookly_sub_services": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 114688
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_e_events": {
+                "inaccurateRows": 2,
+                "insertedRows": 3,
+                "size": 32768
+            },
+            "wp_e_submissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 294912
+            },
+            "wp_e_submissions_actions_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wp_e_submissions_values": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_gla_attribute_mapping_rules": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_gla_budget_recommendations": {
+                "inaccurateRows": 4230,
+                "insertedRows": 4230,
+                "size": 376832
+            },
+            "wp_gla_merchant_issues": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_gla_shipping_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_gla_shipping_times": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_automations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_mailpoet_automation_runs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_automation_run_logs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_automation_run_subjects": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_mailpoet_automation_triggers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_mailpoet_automation_versions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_custom_fields": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_dynamic_segment_filters": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_feature_flags": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_forms": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_mailpoet_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_mailpoet_migrations": {
+                "inaccurateRows": 7,
+                "insertedRows": 7,
+                "size": 32768
+            },
+            "wp_mailpoet_newsletters": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_mailpoet_newsletter_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_mailpoet_newsletter_option": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_newsletter_option_fields": {
+                "inaccurateRows": 24,
+                "insertedRows": 24,
+                "size": 32768
+            },
+            "wp_mailpoet_newsletter_posts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_newsletter_segment": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_newsletter_templates": {
+                "inaccurateRows": 69,
+                "insertedRows": 76,
+                "size": 2637824
+            },
+            "wp_mailpoet_scheduled_tasks": {
+                "inaccurateRows": 29,
+                "insertedRows": 30,
+                "size": 49152
+            },
+            "wp_mailpoet_scheduled_task_subscribers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_segments": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 49152
+            },
+            "wp_mailpoet_sending_queues": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_mailpoet_settings": {
+                "inaccurateRows": 15,
+                "insertedRows": 15,
+                "size": 32768
+            },
+            "wp_mailpoet_statistics_bounces": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_mailpoet_statistics_clicks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_mailpoet_statistics_forms": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_statistics_newsletters": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_mailpoet_statistics_opens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "wp_mailpoet_statistics_unsubscribes": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_mailpoet_statistics_woocommerce_purchases": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_mailpoet_stats_notifications": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_mailpoet_subscribers": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 147456
+            },
+            "wp_mailpoet_subscriber_custom_field": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_subscriber_ips": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_subscriber_segment": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_mailpoet_subscriber_tag": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_mailpoet_tags": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_user_agents": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailpoet_user_flags": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mapp_maps": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_options": {
+                "inaccurateRows": 979,
+                "insertedRows": 990,
+                "size": 3293184
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 7843,
+                "insertedRows": 6686,
+                "size": 6340608
+            },
+            "wp_posts": {
+                "inaccurateRows": 771,
+                "insertedRows": 875,
+                "size": 1753088
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 25,
+                "insertedRows": 25,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 88,
+                "insertedRows": 88,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 24,
+                "insertedRows": 25,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 67,
+                "insertedRows": 67,
+                "size": 65536
+            },
+            "wp_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_wc_admin_notes": {
+                "inaccurateRows": 43,
+                "insertedRows": 43,
+                "size": 49152
+            },
+            "wp_wc_admin_note_actions": {
+                "inaccurateRows": 51,
+                "insertedRows": 51,
+                "size": 32768
+            },
+            "wp_wc_category_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_product_meta_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "wp_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_sessions": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_yoast_indexable": {
+                "inaccurateRows": 82,
+                "insertedRows": 82,
+                "size": 163840
+            },
+            "wp_yoast_indexable_hierarchy": {
+                "inaccurateRows": 81,
+                "insertedRows": 81,
+                "size": 65536
+            },
+            "wp_yoast_migrations": {
+                "inaccurateRows": 23,
+                "insertedRows": 23,
+                "size": 32768
+            },
+            "wp_yoast_primary_term": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_yoast_seo_links": {
+                "inaccurateRows": 29,
+                "insertedRows": 29,
+                "size": 49152
+            }
+        },
+        "varLowerCaseTables": "1",
+        "dbEngine": "MariaDB",
+        "version": "10.4.22",
+        "versionComment": "mariadb.org binary distribution",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20230402_childcare",
+        "packageHash": "1f6e630-02224112",
+        "secondaryHash": "77dd4a1-02224112"
+    },
+    "fileInfo": {
+        "dirCount": 7170,
+        "fileCount": 31660,
+        "size": 109882959
+    },
+    "wpInfo": {
+        "version": "6.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "D:\/xampp\/htdocs\/day",
+        "targetPaths": [
+            "D:\/xampp\/htdocs\/day"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "admin",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "D:\\xampp\\htdocs\\day\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": ".y-%wO[8YoXyAppv$[3Ry3XHX~@g;wxv_KkJen^u?ft2kVmBltJ~:^7~Y?86q`-7",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "q?!0W^202FYT?u=Mem0<t&5}`Y|f6.`kVjG_]w\/?)5GN.\/L0{fzR4`qsa#~,BY11",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "mPEF+,EdzA;l)!TbqX@\/6j8N6>rm?6Q.ZH#BcjeaPLe+Z;TH)J^F XKYV,~CPCo$",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "{{y5S^VE,?@DG.;(ED3rKyTU|r4 ph>kWu^OiMr54q6vs(Iz [hs[|^o6I,xPlx2",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "X_8kl lBX673BT_l<lH.j_,NTYq2qfp4C4PKi`<DQQO@ymM-bsr34g\/[H{dAM&%o",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "d=XCMF?b6C9Y3}gO>i0u0Xvu2t%e;gP|{< miR1Y#;~Z~f:V`SZ`Y0[DwAU3toZ7",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "lP!Ys*Nx#&5=|x)E>#~nrZb<w=Zt47W1]lBJ|JiW;_O7,^X=uusgZr1v\/5igXldp",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "Ryp%OEMlfoZ<OU}w5f2A%1Z`uJh77CWV*,*swx8ZB+Aaf&qRjG~`-2ii$KyA5R47",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "D:\\xampp\\htdocs\\day\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/localhost\/day\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "D:\\xampp\\htdocs\\day\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/localhost\/day\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "1024M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "D:\\xampp\\htdocs\\day\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/day\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/day\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/day\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/day\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "D:\\xampp\\htdocs\\day\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "D:\\xampp\\htdocs\\day\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "D:\\xampp\\htdocs\\day\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/localhost\/day\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "http:\/\/localhost\/day",
+                "homeUrl": "http:\/\/localhost\/day",
+                "loginUrl": "http:\/\/localhost\/day\/wp-login.php",
+                "contentUrl": "http:\/\/localhost\/day\/wp-content",
+                "uploadBaseUrl": "http:\/\/localhost\/day\/wp-content\/uploads",
+                "pluginsUrl": "http:\/\/localhost\/day\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/localhost\/day\/wp-content\/mu-plugins",
+                "themesUrl": "http:\/\/localhost\/day\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "D:\/xampp\/htdocs\/day",
+                    "abs": "D:\\xampp\\htdocs\\day",
+                    "wpconfig": "D:\/xampp\/htdocs\/day",
+                    "wpcontent": "D:\\xampp\\htdocs\\day\/wp-content",
+                    "uploads": "D:\\xampp\\htdocs\\day\/wp-content\/uploads",
+                    "plugins": "D:\\xampp\\htdocs\\day\/wp-content\/plugins",
+                    "muplugins": "D:\\xampp\\htdocs\\day\/wp-content\/mu-plugins",
+                    "themes": "D:\\xampp\\htdocs\\day\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "D:\/xampp\/htdocs\/day",
+                    "abs": "D:\/xampp\/htdocs\/day",
+                    "wpconfig": "D:\/xampp\/htdocs\/day",
+                    "wpcontent": "D:\/xampp\/htdocs\/day\/wp-content",
+                    "uploads": "D:\/xampp\/htdocs\/day\/wp-content\/uploads",
+                    "plugins": "D:\/xampp\/htdocs\/day\/wp-content\/plugins",
+                    "muplugins": "D:\/xampp\/htdocs\/day\/wp-content\/mu-plugins",
+                    "themes": "D:\/xampp\/htdocs\/day\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "bookly-responsive-appointment-booking-tool\/main.php": {
+                "slug": "bookly-responsive-appointment-booking-tool\/main.php",
+                "name": "Bookly",
+                "version": "21.6",
+                "pluginURI": "https:\/\/www.booking-wp-plugin.com\/?utm_source=bookly_admin&utm_medium=plugins_page&utm_campaign=plugins_page",
+                "author": "Bookly",
+                "authorURI": "https:\/\/www.booking-wp-plugin.com\/?utm_source=bookly_admin&utm_medium=plugins_page&utm_campaign=plugins_page",
+                "description": "Bookly Plugin \u2013 is a great easy-to-use and easy-to-manage booking tool for service providers who think about their customers. The plugin supports a wide range of services provided by business and individuals who offer reservations through websites. Set up any reservation quickly, pleasantly and easily with Bookly!",
+                "title": "Bookly",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bookly-addon-pro\/main.php": {
+                "slug": "bookly-addon-pro\/main.php",
+                "name": "Bookly Pro (Add-on)",
+                "version": "5.8",
+                "pluginURI": "https:\/\/www.booking-wp-plugin.com\/?utm_source=bookly_admin&utm_medium=plugins_page&utm_campaign=plugins_page",
+                "author": "Bookly",
+                "authorURI": "https:\/\/www.booking-wp-plugin.com\/?utm_source=bookly_admin&utm_medium=plugins_page&utm_campaign=plugins_page",
+                "description": "Bookly Pro add-on allows you to use additional features and settings, and install other add-ons for Bookly plugin.",
+                "title": "Bookly Pro (Add-on)",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-editor\/classic-editor.php": {
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6.2",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.3.1",
+                "pluginURI": "https:\/\/snapcreek.com\/duplicator\/duplicator-free\/",
+                "author": "Snap Creek",
+                "authorURI": "http:\/\/www.snapcreek.com\/duplicator\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor.3.11.2\/elementor.php": {
+                "slug": "elementor.3.11.2\/elementor.php",
+                "name": "Elementor (\u0635\u0641\u062d\u0647 \u0633\u0627\u0632 \u0627\u0644\u0645\u0646\u062a\u0648\u0631)",
+                "version": "3.11.2",
+                "pluginURI": "https:\/\/roshanaiedanaie.com\/elementor-pro-plugin\/",
+                "author": "(roshanaiedanaie.com) \u062a\u06cc\u0645 \u0634\u0631\u06a9\u062a \u0631\u0648\u0634\u0646\u0627\u06cc\u06cc \u062f\u0627\u0646\u0627\u06cc\u06cc",
+                "authorURI": "https:\/\/roshanaiedanaie.com\/",
+                "description": "\u0627\u0641\u0632\u0648\u0646\u0647 \u0627\u0644\u0645\u0646\u062a\u0648\u0631\u060c \u0641\u0627\u0631\u0633\u06cc \u0633\u0627\u0632\u06cc \u0634\u062f\u0647 \u062a\u0648\u0633\u0637 \u062a\u06cc\u0645 \u0634\u0631\u06a9\u062a \u0631\u0648\u0634\u0646\u0627\u06cc\u06cc \u062f\u0627\u0646\u0627\u06cc\u06cc",
+                "title": "Elementor (\u0635\u0641\u062d\u0647 \u0633\u0627\u0632 \u0627\u0644\u0645\u0646\u062a\u0648\u0631)",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor-pro.3.11.2\/elementor-pro.php": {
+                "slug": "elementor-pro.3.11.2\/elementor-pro.php",
+                "name": "Elementor Pro (\u0635\u0641\u062d\u0647 \u0633\u0627\u0632 \u0627\u0644\u0645\u0646\u062a\u0648\u0631 \u067e\u0631\u0648)",
+                "version": "3.11.2",
+                "pluginURI": "https:\/\/roshanaiedanaie.com\/elementor-pro-plugin\/",
+                "author": "(roshanaiedanaie.com) \u062a\u06cc\u0645 \u0634\u0631\u06a9\u062a \u0631\u0648\u0634\u0646\u0627\u06cc\u06cc \u062f\u0627\u0646\u0627\u06cc\u06cc",
+                "authorURI": "https:\/\/roshanaiedanaie.com\/",
+                "description": "\u0627\u0641\u0632\u0648\u0646\u0647 \u0627\u0644\u0645\u0646\u062a\u0648\u0631 \u067e\u0631\u0648\u060c \u0641\u0627\u0631\u0633\u06cc \u0633\u0627\u0632\u06cc \u0634\u062f\u0647 \u062a\u0648\u0633\u0637 \u062a\u06cc\u0645 \u0634\u0631\u06a9\u062a \u0631\u0648\u0634\u0646\u0627\u06cc\u06cc \u062f\u0627\u0646\u0627\u06cc\u06cc",
+                "title": "Elementor Pro (\u0635\u0641\u062d\u0647 \u0633\u0627\u0632 \u0627\u0644\u0645\u0646\u062a\u0648\u0631 \u067e\u0631\u0648)",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "essential-addons-for-elementor-lite\/essential_adons_elementor.php": {
+                "slug": "essential-addons-for-elementor-lite\/essential_adons_elementor.php",
+                "name": "Essential Addons for Elementor",
+                "version": "5.6.4",
+                "pluginURI": "https:\/\/essential-addons.com\/elementor\/",
+                "author": "WPDeveloper",
+                "authorURI": "https:\/\/wpdeveloper.com\/",
+                "description": "The Essential plugin you install after Elementor! Packed with 40+ stunning free elements including Advanced Data Table, Event Calendar, Filterable Gallery, WooCommerce, and many more.",
+                "title": "Essential Addons for Elementor",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "jetpack\/jetpack.php": {
+                "slug": "jetpack\/jetpack.php",
+                "name": "Jetpack",
+                "version": "11.9",
+                "pluginURI": "https:\/\/jetpack.com",
+                "author": "Automattic",
+                "authorURI": "https:\/\/jetpack.com",
+                "description": "Security, performance, and marketing tools made by WordPress experts. Jetpack keeps your site protected so you can focus on more important things.",
+                "title": "Jetpack",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "7.4.1",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordpress-seo\/wp-seo.php": {
+                "slug": "wordpress-seo\/wp-seo.php",
+                "name": "Yoast SEO",
+                "version": "20.3",
+                "pluginURI": "https:\/\/yoa.st\/1uj",
+                "author": "Team Yoast",
+                "authorURI": "https:\/\/yoa.st\/1uk",
+                "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+                "title": "Yoast SEO",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "astra": {
+                "slug": "astra",
+                "themeName": "Astra",
+                "version": "4.0.2",
+                "themeURI": "https:\/\/wpastra.com\/",
+                "parentTheme": false,
+                "template": "astra",
+                "stylesheet": "astra",
+                "description": "Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/wpastra.com\/about\/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme",
+                "tags": [
+                    "custom-menu",
+                    "custom-logo",
+                    "entertainment",
+                    "one-column",
+                    "two-columns",
+                    "left-sidebar",
+                    "e-commerce",
+                    "right-sidebar",
+                    "custom-colors",
+                    "editor-style",
+                    "featured-images",
+                    "full-width-template",
+                    "microformats",
+                    "post-formats",
+                    "rtl-language-support",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "blog"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            }
+        }
+    },
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Childcare"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20230402_childcare_1f6e630cdffbf1092695_20230402224112_installer-backup.php",
+    "package_name": "20230402_childcare_1f6e630cdffbf1092695_20230402224112_archive.zip",
+    "package_hash": "1f6e630-02224112",
+    "package_notes": ""
+}

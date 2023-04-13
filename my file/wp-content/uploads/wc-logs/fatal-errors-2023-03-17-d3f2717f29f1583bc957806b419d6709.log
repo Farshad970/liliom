@@ -1,0 +1,12 @@
+2023-03-17T01:51:36+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on bool in D:\xampp\htdocs\day\wp-content\plugins\elementor-pro.3.11.2\modules\theme-builder\classes\conditions-manager.php:295
+Stack trace:
+#0 D:\xampp\htdocs\day\wp-content\plugins\elementor-pro.3.11.2\modules\theme-builder\classes\conditions-manager.php(168): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 D:\xampp\htdocs\day\wp-content\plugins\elementor.3.11.2\core\common\modules\ajax\module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 D:\xampp\htdocs\day\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 D:\xampp\htdocs\day\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 D:\xampp\htdocs\day\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 D:\xampp\htdocs\day\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#7 {main}
+  thrown in D:\xampp\htdocs\day\wp-content\plugins\elementor-pro.3.11.2\modules\theme-builder\classes\conditions-manager.php on line 295
+
